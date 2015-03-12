@@ -10,3 +10,11 @@ __Demo:__
 [superview.style set:@"padding: 10;"];
 ```
 
+Wrapping native UIViews:
+
+```
+UISwitch *s = [[UISwitch alloc] init];
+IView *view = [[IView alloc] init];
+[view addSubview:s style:@"float: right; margin: 3;"];
+```
+
