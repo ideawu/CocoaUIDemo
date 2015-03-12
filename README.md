@@ -13,8 +13,10 @@ __Demo:__
 Wrapping native UIViews:
 
 ```
-UISwitch *s = [[UISwitch alloc] init];
+UISwitch *s1 = [[UISwitch alloc] init];
+UISwitch *s2 = [[UISwitch alloc] init];
 IView *view = [[IView alloc] init];
-[view addSubview:s style:@"float: right; margin: 3;"];
+[view addSubview:s1 style:@"float: left; margin: 3;"];
+[view addSubview:s2 style:@"float: right; margin: 3;"];
 ```
 
