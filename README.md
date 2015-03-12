@@ -16,6 +16,7 @@ Wrapping native UIViews:
 UISwitch *s1 = [[UISwitch alloc] init];
 UISwitch *s2 = [[UISwitch alloc] init];
 IView *view = [[IView alloc] init];
+[view.style set:@"padding: 4; border: 1 solid #000; border-radius: 5;"];
 [view addSubview:s1 style:@"float: left; margin: 3;"];
 [view addSubview:s2 style:@"float: right; margin: 3;"];
 ```
