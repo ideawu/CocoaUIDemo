@@ -53,6 +53,7 @@ typedef enum{
 - (void)hide;
 - (void)toggle;
 
+- (void)bindEvent:(IEventType)event handler:(void (^)(IEventType event, IView *view))handler;
 /**
  * event can be combined by | operator.
  */

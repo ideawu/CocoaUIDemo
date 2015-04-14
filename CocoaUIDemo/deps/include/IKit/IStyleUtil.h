@@ -1,6 +1,9 @@
 //
-//  Created by ideawu on 14-12-28.
-//  Copyright (c) 2014年 test. All rights reserved.
+//  IStyleUtil.h
+//  IKit
+//
+//  Created by ideawu on 3/27/15.
+//  Copyright (c) 2015 ideawu. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

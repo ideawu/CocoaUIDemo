@@ -9,6 +9,7 @@
 
 @interface IKit : NSObject
 
++ (UIColor *) colorFromHex:(NSString *)hex;
 + (void)alert:(NSString *)msg;
 
 @end
