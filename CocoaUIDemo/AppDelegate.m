@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LoginController.h"
+#import "ThreeColumnController.h"
 
 @interface AppDelegate ()
 
@@ -24,7 +25,8 @@
 	self.window.rootViewController = nav;
 	[self.window makeKeyAndVisible];
 
-	UIViewController *controller = [[LoginController alloc] init];
+	//UIViewController *controller = [[LoginController alloc] init];
+	UIViewController *controller = [[ThreeColumnController alloc] init];
 	[nav pushViewController:controller animated:YES];
 
 	return YES;

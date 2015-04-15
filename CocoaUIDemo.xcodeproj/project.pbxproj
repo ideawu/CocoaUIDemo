@@ -20,6 +20,8 @@
 		083F64011AA8B53C00C5F9A7 /* libIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 083F64001AA8B53C00C5F9A7 /* libIKit.a */; };
 		083F64151AA8B80600C5F9A7 /* ic_captcha.png in Resources */ = {isa = PBXBuildFile; fileRef = 083F64141AA8B80600C5F9A7 /* ic_captcha.png */; };
 		083F64181AA8B91C00C5F9A7 /* BuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083F64171AA8B91C00C5F9A7 /* BuyController.m */; };
+		08D8C1431ADEB4AE008E63D5 /* three-cols.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08D8C1421ADEB4AE008E63D5 /* three-cols.xml */; };
+		08D8C1461ADEB4D0008E63D5 /* ThreeColumnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,9 @@
 		083F64141AA8B80600C5F9A7 /* ic_captcha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_captcha.png; sourceTree = "<group>"; };
 		083F64161AA8B91C00C5F9A7 /* BuyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyController.h; sourceTree = "<group>"; };
 		083F64171AA8B91C00C5F9A7 /* BuyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyController.m; sourceTree = "<group>"; };
+		08D8C1421ADEB4AE008E63D5 /* three-cols.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "three-cols.xml"; sourceTree = "<group>"; };
+		08D8C1441ADEB4D0008E63D5 /* ThreeColumnController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeColumnController.h; sourceTree = "<group>"; };
+		08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeColumnController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,8 @@
 				083F64171AA8B91C00C5F9A7 /* BuyController.m */,
 				083F63F81AA8B42500C5F9A7 /* LoginController.h */,
 				083F63F91AA8B42500C5F9A7 /* LoginController.m */,
+				08D8C1441ADEB4D0008E63D5 /* ThreeColumnController.h */,
+				08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */,
 				083F63CD1AA8B17900C5F9A7 /* Supporting Files */,
 			);
 			path = CocoaUIDemo;
@@ -88,6 +95,7 @@
 		083F63CD1AA8B17900C5F9A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				08D8C1421ADEB4AE008E63D5 /* three-cols.xml */,
 				083F63F51AA8B42500C5F9A7 /* buy.xml */,
 				083F63F71AA8B42500C5F9A7 /* login.xml */,
 				083F63F61AA8B42500C5F9A7 /* ic_pass.png */,
@@ -162,6 +170,7 @@
 			files = (
 				083F64151AA8B80600C5F9A7 /* ic_captcha.png in Resources */,
 				083F63DE1AA8B17900C5F9A7 /* LaunchScreen.xib in Resources */,
+				08D8C1431ADEB4AE008E63D5 /* three-cols.xml in Resources */,
 				083F63FD1AA8B42500C5F9A7 /* login.xml in Resources */,
 				083F63DB1AA8B17900C5F9A7 /* Images.xcassets in Resources */,
 				083F63FB1AA8B42500C5F9A7 /* buy.xml in Resources */,
@@ -178,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D8C1461ADEB4D0008E63D5 /* ThreeColumnController.m in Sources */,
 				083F63D31AA8B17900C5F9A7 /* AppDelegate.m in Sources */,
 				083F63D01AA8B17900C5F9A7 /* main.m in Sources */,
 				083F64181AA8B91C00C5F9A7 /* BuyController.m in Sources */,

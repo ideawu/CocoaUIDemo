@@ -1,0 +1,28 @@
+<div>
+	<style>
+	.col{
+		margin-top: 10;
+		height: 100;
+	}
+	.rect{
+		width: 100%;
+		height: 100%;
+		margin: 0 10;
+	}
+	</style>
+	<div style="width: 33.33%;" class="col">
+		<div class="rect" style="background: #cc3;">
+		</div>
+	</div>
+	<div style="width: 50%;" class="col">
+		<div class="rect" style="background: #3c3;">
+		</div>
+	</div>
+	<div style="width: 100%;" class="col">
+		<div class="rect" style="background: #39f;">
+		</div>
+	</div>
+	
+	<div id="pan" style="background: #3c9; width: 100%; margin: 10; height: 100;">
+	</div>
+</div>
