@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LoginController.h"
-#import "ThreeColumnController.h"
+#import "HomeController.h"
 
 @interface AppDelegate ()
 
@@ -26,7 +26,7 @@
 	[self.window makeKeyAndVisible];
 
 	//UIViewController *controller = [[LoginController alloc] init];
-	UIViewController *controller = [[ThreeColumnController alloc] init];
+	UIViewController *controller = [[HomeController alloc] init];
 	[nav pushViewController:controller animated:YES];
 
 	return YES;

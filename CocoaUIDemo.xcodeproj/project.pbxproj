@@ -22,6 +22,7 @@
 		083F64181AA8B91C00C5F9A7 /* BuyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083F64171AA8B91C00C5F9A7 /* BuyController.m */; };
 		08D8C1431ADEB4AE008E63D5 /* three-cols.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08D8C1421ADEB4AE008E63D5 /* three-cols.xml */; };
 		08D8C1461ADEB4D0008E63D5 /* ThreeColumnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */; };
+		31344D3A1ADF6CE70035FEA5 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31344D391ADF6CE70035FEA5 /* HomeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		08D8C1421ADEB4AE008E63D5 /* three-cols.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "three-cols.xml"; sourceTree = "<group>"; };
 		08D8C1441ADEB4D0008E63D5 /* ThreeColumnController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeColumnController.h; sourceTree = "<group>"; };
 		08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeColumnController.m; sourceTree = "<group>"; };
+		31344D381ADF6CE70035FEA5 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		31344D391ADF6CE70035FEA5 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 			children = (
 				083F63D11AA8B17900C5F9A7 /* AppDelegate.h */,
 				083F63D21AA8B17900C5F9A7 /* AppDelegate.m */,
+				31344D381ADF6CE70035FEA5 /* HomeController.h */,
+				31344D391ADF6CE70035FEA5 /* HomeController.m */,
 				083F64161AA8B91C00C5F9A7 /* BuyController.h */,
 				083F64171AA8B91C00C5F9A7 /* BuyController.m */,
 				083F63F81AA8B42500C5F9A7 /* LoginController.h */,
@@ -191,6 +196,7 @@
 				083F63D31AA8B17900C5F9A7 /* AppDelegate.m in Sources */,
 				083F63D01AA8B17900C5F9A7 /* main.m in Sources */,
 				083F64181AA8B91C00C5F9A7 /* BuyController.m in Sources */,
+				31344D3A1ADF6CE70035FEA5 /* HomeController.m in Sources */,
 				083F63FE1AA8B42500C5F9A7 /* LoginController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
