@@ -23,6 +23,7 @@
 		08D8C1431ADEB4AE008E63D5 /* three-cols.xml in Resources */ = {isa = PBXBuildFile; fileRef = 08D8C1421ADEB4AE008E63D5 /* three-cols.xml */; };
 		08D8C1461ADEB4D0008E63D5 /* ThreeColumnController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */; };
 		31344D3A1ADF6CE70035FEA5 /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31344D391ADF6CE70035FEA5 /* HomeController.m */; };
+		31344D4F1AE0CB950035FEA5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31344D4E1AE0CB950035FEA5 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		08D8C1451ADEB4D0008E63D5 /* ThreeColumnController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeColumnController.m; sourceTree = "<group>"; };
 		31344D381ADF6CE70035FEA5 /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
 		31344D391ADF6CE70035FEA5 /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		31344D4E1AE0CB950035FEA5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31344D4F1AE0CB950035FEA5 /* libxml2.dylib in Frameworks */,
 				083F64011AA8B53C00C5F9A7 /* libIKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -111,6 +114,7 @@
 				083F63DA1AA8B17900C5F9A7 /* Images.xcassets */,
 				083F63CE1AA8B17900C5F9A7 /* Info.plist */,
 				083F63CF1AA8B17900C5F9A7 /* main.m */,
+				31344D4E1AE0CB950035FEA5 /* libxml2.dylib */,
 				083F64001AA8B53C00C5F9A7 /* libIKit.a */,
 			);
 			name = "Supporting Files";
